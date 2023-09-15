@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "花开堪折直须折，莫待无花空折枝 • All posts by \"unity\" tag",
+    "description": "blog of Shiqi",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/",
+            "url": "http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/",
+            "title": "Plan_of_Pocket_Shell_Summary",
+            "date_published": "2023-09-15T04:54:45.000Z",
+            "content_html": "<h1 id=\"something-about-pocket-shell\"><a class=\"anchor\" href=\"#something-about-pocket-shell\">#</a> Something about Pocket Shell</h1>\n<p>The Pocket Shell project is my personal project in 2022. At that time, our SRTP(Student Research &amp; Train Program) in 2021 was unable to reach its completion. The SRTP is set for undergrad students to do some research or development work in the whole year. The projects are provided by the professors in our department. At that time, our project was development of the virtual campus of USTB.</p>\n<p>The project was a big one, and our teammates are facing their own challenges like working for Graduate School Recommendation or finding interns or jobs. Then, we made a hard choice to stop the project.</p>\n<p>After the new year of 2022, our teammates almost finished their own things, and I was thinking about what I should do in the rest of the year. I was thinking about the project we stopped, and I found that we can continue the project in a new way. Initially, the project was planned to develop a desktop application. However, after consideration, I think creating a mobile application aligned better with the prevailing technological trends at the time. So, I reconvened the members of the project team and explained to them that we were embarking on this project solely out of interest, without any profit motives and material gains, like never use this project to participate in competitions for cash prizes... This is purely out of interest.</p>\n<p>After that, we started the project again. We decided to use Unity to develop the project, and we named the project Pocket Shell, which means we can use this app to bring USTB (is short for Bei Ke Da in Chinese, and the homonym of this word in Chinese means 'seashell') to our pockets.</p>\n<p>In the end, we developed a prototype of the project. Although this program is very rudimentary, with only the ability to move around campus, chat in text channels, and add friends, we believe it has met our initial basic expectations. We did lots of work to build the game server, game client, university 3-d modeling, friend system, account system and so on...</p>\n<p>So, it's time to summarize the project here. I don't want after the project, nothing left. I want to write down the project, and I want to write down the things we learned from it. Also, maybe some technical self-assessments and retrospectives to see what could have been done better at the time. I believe this has great guiding significance for my future work. Who knows? 😄</p>\n<h1 id=\"plan\"><a class=\"anchor\" href=\"#plan\">#</a> Plan</h1>\n<p>I need to find out the source code we used at that time. Then I will write down from the view of Unity Mirror Component and the architecture of the whole series of servers (including game server, account server, chatting server), and also some gameplay development and 3-D modeling optimization in Unity.</p>\n<h1 id=\"looking-forward-to-it\"><a class=\"anchor\" href=\"#looking-forward-to-it\">#</a> Looking forward to it!</h1>\n<p>It's actually my new life starting in Pittsburgh. I wish I can make good use of my time, also leave some footprints of what I did and what I do now.</p>\n",
+            "tags": [
+                "Pocket Shell",
+                "Unity",
+                "Game Networking"
+            ]
+        }
+    ]
+}
