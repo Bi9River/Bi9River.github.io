@@ -3,10 +3,40 @@
     <id>http://example.com</id>
     <title>花开堪折直须折，莫待无花空折枝</title>
     <link href="http://example.com" />
-    <updated>2023-09-15T04:54:45.000Z</updated>
+    <updated>2023-09-17T05:38:05.000Z</updated>
     <category term="Pocket Shell" />
     <category term="Unity" />
     <category term="Game Networking" />
+    <entry>
+        <id>http://example.com/2023/09/17/Pocket-Shell-01-Overview/</id>
+        <title>Pocket_Shell_01_Overview</title>
+        <link rel="alternate" href="http://example.com/2023/09/17/Pocket-Shell-01-Overview/"/>
+        <content type="html">&lt;h1 id=&#34;pocket-shell-01-overview&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pocket-shell-01-overview&#34;&gt;#&lt;/a&gt; Pocket Shell 01 Overview&lt;/h1&gt;
+&lt;p&gt;This is the overview of the Pocket Shell system. I drew a N-Tier layer diagram to show the overall structure of the system.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2023/09/17/zVmMF7Drn2qQStX.png&#34; alt=&#34;Pocket_Shell_N_Tier_Layers&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From the diagram, the system can be divided into some modules.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game Client: The mobile app.&lt;/li&gt;
+&lt;li&gt;Web User Account Management Frontend: A website for users to:
+&lt;ul&gt;
+&lt;li&gt;Register.&lt;/li&gt;
+&lt;li&gt;Edit their profile, such as avatar, nickname...&lt;/li&gt;
+&lt;li&gt;Manage the friend list, such as adding/removing friend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Game Server: Synchronizes the in-game user position.&lt;/li&gt;
+&lt;li&gt;Web User Account Management Backend&lt;/li&gt;
+&lt;li&gt;Chat System Server: In-game text chatting server. It is separated from the game server.&lt;/li&gt;
+&lt;li&gt;DBs &amp;amp; Connectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The system is designed using a microservices architecture approach. Within this framework, distinct components such as the Game Client, Web User Management Frontend, Game Server, Web User Management Backend, and Chat System Server are isolated from one another. Each of these components maintains its own independent data, avoiding shared storage.&lt;/p&gt;
+&lt;p&gt;This modular approach allows for a refined decomposition of services within what would otherwise be a more complex system, ensuring the decoupling of services based on their responsibilities.&lt;/p&gt;
+</content>
+        <category term="Pocket Shell" />
+        <category term="Unity" />
+        <category term="Game Networking" />
+        <updated>2023-09-17T05:38:05.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/</id>
         <title>Plan_of_Pocket_Shell_Summary</title>

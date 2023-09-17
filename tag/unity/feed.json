@@ -5,6 +5,18 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2023/09/17/Pocket-Shell-01-Overview/",
+            "url": "http://example.com/2023/09/17/Pocket-Shell-01-Overview/",
+            "title": "Pocket_Shell_01_Overview",
+            "date_published": "2023-09-17T05:38:05.000Z",
+            "content_html": "<h1 id=\"pocket-shell-01-overview\"><a class=\"anchor\" href=\"#pocket-shell-01-overview\">#</a> Pocket Shell 01 Overview</h1>\n<p>This is the overview of the Pocket Shell system. I drew a N-Tier layer diagram to show the overall structure of the system.</p>\n<p><img src=\"https://s2.loli.net/2023/09/17/zVmMF7Drn2qQStX.png\" alt=\"Pocket_Shell_N_Tier_Layers\" width=\"70%\"></p>\n<p>From the diagram, the system can be divided into some modules.</p>\n<ul>\n<li>Game Client: The mobile app.</li>\n<li>Web User Account Management Frontend: A website for users to:\n<ul>\n<li>Register.</li>\n<li>Edit their profile, such as avatar, nickname...</li>\n<li>Manage the friend list, such as adding/removing friend.</li>\n</ul>\n</li>\n<li>Game Server: Synchronizes the in-game user position.</li>\n<li>Web User Account Management Backend</li>\n<li>Chat System Server: In-game text chatting server. It is separated from the game server.</li>\n<li>DBs &amp; Connectors</li>\n</ul>\n<p>The system is designed using a microservices architecture approach. Within this framework, distinct components such as the Game Client, Web User Management Frontend, Game Server, Web User Management Backend, and Chat System Server are isolated from one another. Each of these components maintains its own independent data, avoiding shared storage.</p>\n<p>This modular approach allows for a refined decomposition of services within what would otherwise be a more complex system, ensuring the decoupling of services based on their responsibilities.</p>\n",
+            "tags": [
+                "Pocket Shell",
+                "Unity",
+                "Game Networking"
+            ]
+        },
+        {
             "id": "http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/",
             "url": "http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/",
             "title": "Plan_of_Pocket_Shell_Summary",

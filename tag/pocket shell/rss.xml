@@ -5,11 +5,41 @@
         <link>http://example.com</link>
         <description>blog of Shiqi</description>
         <language>en</language>
-        <pubDate>Fri, 15 Sep 2023 00:54:45 -0400</pubDate>
-        <lastBuildDate>Fri, 15 Sep 2023 00:54:45 -0400</lastBuildDate>
+        <pubDate>Sun, 17 Sep 2023 01:38:05 -0400</pubDate>
+        <lastBuildDate>Sun, 17 Sep 2023 01:38:05 -0400</lastBuildDate>
         <category>Pocket Shell</category>
         <category>Unity</category>
         <category>Game Networking</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/09/17/Pocket-Shell-01-Overview/</guid>
+            <title>Pocket_Shell_01_Overview</title>
+            <link>http://example.com/2023/09/17/Pocket-Shell-01-Overview/</link>
+            <category>Pocket Shell</category>
+            <category>Unity</category>
+            <category>Game Networking</category>
+            <pubDate>Sun, 17 Sep 2023 01:38:05 -0400</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;pocket-shell-01-overview&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pocket-shell-01-overview&#34;&gt;#&lt;/a&gt; Pocket Shell 01 Overview&lt;/h1&gt;
+&lt;p&gt;This is the overview of the Pocket Shell system. I drew a N-Tier layer diagram to show the overall structure of the system.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2023/09/17/zVmMF7Drn2qQStX.png&#34; alt=&#34;Pocket_Shell_N_Tier_Layers&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From the diagram, the system can be divided into some modules.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game Client: The mobile app.&lt;/li&gt;
+&lt;li&gt;Web User Account Management Frontend: A website for users to:
+&lt;ul&gt;
+&lt;li&gt;Register.&lt;/li&gt;
+&lt;li&gt;Edit their profile, such as avatar, nickname...&lt;/li&gt;
+&lt;li&gt;Manage the friend list, such as adding/removing friend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Game Server: Synchronizes the in-game user position.&lt;/li&gt;
+&lt;li&gt;Web User Account Management Backend&lt;/li&gt;
+&lt;li&gt;Chat System Server: In-game text chatting server. It is separated from the game server.&lt;/li&gt;
+&lt;li&gt;DBs &amp;amp; Connectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The system is designed using a microservices architecture approach. Within this framework, distinct components such as the Game Client, Web User Management Frontend, Game Server, Web User Management Backend, and Chat System Server are isolated from one another. Each of these components maintains its own independent data, avoiding shared storage.&lt;/p&gt;
+&lt;p&gt;This modular approach allows for a refined decomposition of services within what would otherwise be a more complex system, ensuring the decoupling of services based on their responsibilities.&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/</guid>
             <title>Plan_of_Pocket_Shell_Summary</title>

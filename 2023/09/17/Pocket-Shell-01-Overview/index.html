@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>About | 花开堪折直须折，莫待无花空折枝</title>
+  <title>Pocket_Shell_01_Overview | 花开堪折直须折，莫待无花空折枝</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -45,10 +45,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Pocket-Shell-01-Overview" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/about/index.html" class="article-date">
-  <time class="dt-published" datetime="2023-09-07T15:07:47.000Z" itemprop="datePublished">2023-09-07</time>
+    <a href="/2023/09/17/Pocket-Shell-01-Overview/" class="article-date">
+  <time class="dt-published" datetime="2023-09-17T05:38:05.000Z" itemprop="datePublished">2023-09-17</time>
 </a>
     
   </div>
@@ -59,7 +59,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      About
+      Pocket_Shell_01_Overview
     </h1>
   
 
@@ -67,40 +67,50 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="about-me"><a class="anchor" href="#about-me">#</a> About Me</h1>
-<p>Hey there! I'm Shiqi. 🌟 Right now, I'm threading the vibrant pathways of the University of Pittsburgh, diving deep into Electrical and Computer Engineering for my MS study. But let's be honest, it's not just about textbooks and lectures for me—it's about the adrenaline rush when theory meets real-world action!</p>
-<h1 id="education"><a class="anchor" href="#education">#</a> Education</h1>
+        <h1 id="pocket-shell-01-overview"><a class="anchor" href="#pocket-shell-01-overview">#</a> Pocket Shell 01 Overview</h1>
+<p>This is the overview of the Pocket Shell system. I drew a N-Tier layer diagram to show the overall structure of the system.</p>
+<p><img src="https://s2.loli.net/2023/09/17/zVmMF7Drn2qQStX.png" alt="Pocket_Shell_N_Tier_Layers" width="70%"></p>
+<p>From the diagram, the system can be divided into some modules.</p>
 <ul>
-<li><strong>University of Pittsburgh</strong> (2023.08-2024.12)
+<li>Game Client: The mobile app.</li>
+<li>Web User Account Management Frontend: A website for users to:
 <ul>
-<li>Master of Science in Electrical and Computer Engineering</li>
+<li>Register.</li>
+<li>Edit their profile, such as avatar, nickname...</li>
+<li>Manage the friend list, such as adding/removing friend.</li>
 </ul>
 </li>
-<li><strong>University of Skövde</strong> (2023.02-2023.06)
-<ul>
-<li>Exchange Student in Computer Science</li>
+<li>Game Server: Synchronizes the in-game user position.</li>
+<li>Web User Account Management Backend</li>
+<li>Chat System Server: In-game text chatting server. It is separated from the game server.</li>
+<li>DBs &amp; Connectors</li>
 </ul>
-</li>
-<li><strong>University of Science and Technology Beijing</strong> (2019.09-2023.06)
-<ul>
-<li>Bachelor of Engineering in Computer Science and Technology</li>
-</ul>
-</li>
-</ul>
-<h1 id="explore-further"><a class="anchor" href="#explore-further">#</a> Explore Further</h1>
-<p>linkedin: <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/shiqi-wu-b5b143271/">https://www.linkedin.com/in/shiqi-wu-b5b143271/</a></p>
+<p>The system is designed using a microservices architecture approach. Within this framework, distinct components such as the Game Client, Web User Management Frontend, Game Server, Web User Management Backend, and Chat System Server are isolated from one another. Each of these components maintains its own independent data, avoiding shared storage.</p>
+<p>This modular approach allows for a refined decomposition of services within what would otherwise be a more complex system, ensuring the decoupling of services based on their responsibilities.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/about/index.html" data-id="clm9b4qoi00006kknc4dhc8y5" data-title="About" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/09/17/Pocket-Shell-01-Overview/" data-id="clmn1kwvc0000jgknc02c7s6e" data-title="Pocket_Shell_01_Overview" class="article-share-link">Share</a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Game-Networking/" rel="tag">Game Networking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pocket-Shell/" rel="tag">Pocket Shell</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Unity/" rel="tag">Unity</a></li></ul>
+
     </footer>
   </div>
   
     
+<nav id="article-nav">
+  
+  
+    <a href="/2023/09/15/Plan-of-Pocket-Shell-Summary/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Plan_of_Pocket_Shell_Summary</div>
+    </a>
+  
+</nav>
+
   
 </article>
 

@@ -44,4 +44,34 @@
         <tag>Game Networking</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Pocket_Shell_01_Overview</title>
+    <url>/2023/09/17/Pocket-Shell-01-Overview/</url>
+    <content><![CDATA[<h1 id="pocket-shell-01-overview"><a class="anchor" href="#pocket-shell-01-overview">#</a> Pocket Shell 01 Overview</h1>
+<p>This is the overview of the Pocket Shell system. I drew a N-Tier layer diagram to show the overall structure of the system.</p>
+<p><img src="https://s2.loli.net/2023/09/17/zVmMF7Drn2qQStX.png" alt="Pocket_Shell_N_Tier_Layers" width="70%"></p>
+<p>From the diagram, the system can be divided into some modules.</p>
+<ul>
+<li>Game Client: The mobile app.</li>
+<li>Web User Account Management Frontend: A website for users to:
+<ul>
+<li>Register.</li>
+<li>Edit their profile, such as avatar, nickname...</li>
+<li>Manage the friend list, such as adding/removing friend.</li>
+</ul>
+</li>
+<li>Game Server: Synchronizes the in-game user position.</li>
+<li>Web User Account Management Backend</li>
+<li>Chat System Server: In-game text chatting server. It is separated from the game server.</li>
+<li>DBs &amp; Connectors</li>
+</ul>
+<p>The system is designed using a microservices architecture approach. Within this framework, distinct components such as the Game Client, Web User Management Frontend, Game Server, Web User Management Backend, and Chat System Server are isolated from one another. Each of these components maintains its own independent data, avoiding shared storage.</p>
+<p>This modular approach allows for a refined decomposition of services within what would otherwise be a more complex system, ensuring the decoupling of services based on their responsibilities.</p>
+]]></content>
+      <tags>
+        <tag>Pocket Shell</tag>
+        <tag>Unity</tag>
+        <tag>Game Networking</tag>
+      </tags>
+  </entry>
 </search>

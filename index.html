@@ -47,6 +47,66 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Pocket-Shell-01-Overview" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/09/17/Pocket-Shell-01-Overview/" class="article-date">
+  <time class="dt-published" datetime="2023-09-17T05:38:05.000Z" itemprop="datePublished">2023-09-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/09/17/Pocket-Shell-01-Overview/">Pocket_Shell_01_Overview</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="pocket-shell-01-overview"><a class="anchor" href="#pocket-shell-01-overview">#</a> Pocket Shell 01 Overview</h1>
+<p>This is the overview of the Pocket Shell system. I drew a N-Tier layer diagram to show the overall structure of the system.</p>
+<p><img src="https://s2.loli.net/2023/09/17/zVmMF7Drn2qQStX.png" alt="Pocket_Shell_N_Tier_Layers" width="70%"></p>
+<p>From the diagram, the system can be divided into some modules.</p>
+<ul>
+<li>Game Client: The mobile app.</li>
+<li>Web User Account Management Frontend: A website for users to:
+<ul>
+<li>Register.</li>
+<li>Edit their profile, such as avatar, nickname...</li>
+<li>Manage the friend list, such as adding/removing friend.</li>
+</ul>
+</li>
+<li>Game Server: Synchronizes the in-game user position.</li>
+<li>Web User Account Management Backend</li>
+<li>Chat System Server: In-game text chatting server. It is separated from the game server.</li>
+<li>DBs &amp; Connectors</li>
+</ul>
+<p>The system is designed using a microservices architecture approach. Within this framework, distinct components such as the Game Client, Web User Management Frontend, Game Server, Web User Management Backend, and Chat System Server are isolated from one another. Each of these components maintains its own independent data, avoiding shared storage.</p>
+<p>This modular approach allows for a refined decomposition of services within what would otherwise be a more complex system, ensuring the decoupling of services based on their responsibilities.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/09/17/Pocket-Shell-01-Overview/" data-id="clmn1kwvc0000jgknc02c7s6e" data-title="Pocket_Shell_01_Overview" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Game-Networking/" rel="tag">Game Networking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pocket-Shell/" rel="tag">Pocket Shell</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Unity/" rel="tag">Unity</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-Plan-of-Pocket-Shell-Summary" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/09/15/Plan-of-Pocket-Shell-Summary/" class="article-date">
@@ -84,7 +144,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/" data-id="clmk5gyde00000oknbh7qesvp" data-title="Plan_of_Pocket_Shell_Summary" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/09/15/Plan-of-Pocket-Shell-Summary/" data-id="clmk4l4vv0001rwknf9cv8uig" data-title="Plan_of_Pocket_Shell_Summary" class="article-share-link">Share</a>
       
       
       
@@ -206,6 +266,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2023/09/17/Pocket-Shell-01-Overview/">Pocket_Shell_01_Overview</a>
+          </li>
         
           <li>
             <a href="/2023/09/15/Plan-of-Pocket-Shell-Summary/">Plan_of_Pocket_Shell_Summary</a>
