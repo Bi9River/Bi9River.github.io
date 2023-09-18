@@ -74,4 +74,50 @@
         <tag>Game Networking</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Pocket_Shell_02_Unity_Project_Overview</title>
+    <url>/2023/09/17/Pocket-Shell-02-Unity-Project-Overview/</url>
+    <content><![CDATA[<h1 id="pocket-shell-02-unity-project-overview"><a class="anchor" href="#pocket-shell-02-unity-project-overview">#</a> Pocket Shell 02 Unity Project Overview</h1>
+<p>This post presents the Unity project overview of the Pocket Shell System, including the configuration, the project structure, and the project settings.</p>
+<h2 id="project-configuration"><a class="anchor" href="#project-configuration">#</a> Project Configuration</h2>
+<p>The project is configured to use the following settings:</p>
+<ul>
+<li>Unity 2020.3.5f1c1 (c1 means it is a Chinese version)</li>
+<li>.Net standard 2.0</li>
+<li>Android 11.0</li>
+<li>Windows 10</li>
+</ul>
+<h2 id="project-structure"><a class="anchor" href="#project-structure">#</a> Project Structure</h2>
+<p>The project structure is shown below:</p>
+<ul>
+<li>Easy Character Movement</li>
+<li>Joystick Pack</li>
+<li>Mirror</li>
+<li>Materials</li>
+<li>Models</li>
+<li>Pictures</li>
+<li>Plugins</li>
+<li>Prefabs</li>
+<li>Resources</li>
+<li>Scenes</li>
+<li>Scripts</li>
+<li>Textmesh Pro</li>
+<li>Textures</li>
+<li>Videos</li>
+</ul>
+<h2 id="project-settings"><a class="anchor" href="#project-settings">#</a> Project Settings</h2>
+<p>The project settings are shown below:</p>
+<ul>
+<li>Rendering Pipeline: Universal Render Pipeline</li>
+<li>Scripting Runtime Version: .Net standard 2.0</li>
+<li>Scripting Backend: Mono</li>
+<li>Input System: Old Input Manager</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Pocket Shell</tag>
+        <tag>Unity</tag>
+        <tag>Game Networking</tag>
+      </tags>
+  </entry>
 </search>

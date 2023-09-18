@@ -5,6 +5,18 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2023/09/17/Pocket-Shell-02-Unity-Project-Overview/",
+            "url": "http://example.com/2023/09/17/Pocket-Shell-02-Unity-Project-Overview/",
+            "title": "Pocket_Shell_02_Unity_Project_Overview",
+            "date_published": "2023-09-18T02:49:57.000Z",
+            "content_html": "<h1 id=\"pocket-shell-02-unity-project-overview\"><a class=\"anchor\" href=\"#pocket-shell-02-unity-project-overview\">#</a> Pocket Shell 02 Unity Project Overview</h1>\n<p>This post presents the Unity project overview of the Pocket Shell System, including the configuration, the project structure, and the project settings.</p>\n<h2 id=\"project-configuration\"><a class=\"anchor\" href=\"#project-configuration\">#</a> Project Configuration</h2>\n<p>The project is configured to use the following settings:</p>\n<ul>\n<li>Unity 2020.3.5f1c1 (c1 means it is a Chinese version)</li>\n<li>.Net standard 2.0</li>\n<li>Android 11.0</li>\n<li>Windows 10</li>\n</ul>\n<h2 id=\"project-structure\"><a class=\"anchor\" href=\"#project-structure\">#</a> Project Structure</h2>\n<p>The project structure is shown below:</p>\n<ul>\n<li>Easy Character Movement</li>\n<li>Joystick Pack</li>\n<li>Mirror</li>\n<li>Materials</li>\n<li>Models</li>\n<li>Pictures</li>\n<li>Plugins</li>\n<li>Prefabs</li>\n<li>Resources</li>\n<li>Scenes</li>\n<li>Scripts</li>\n<li>Textmesh Pro</li>\n<li>Textures</li>\n<li>Videos</li>\n</ul>\n<h2 id=\"project-settings\"><a class=\"anchor\" href=\"#project-settings\">#</a> Project Settings</h2>\n<p>The project settings are shown below:</p>\n<ul>\n<li>Rendering Pipeline: Universal Render Pipeline</li>\n<li>Scripting Runtime Version: .Net standard 2.0</li>\n<li>Scripting Backend: Mono</li>\n<li>Input System: Old Input Manager</li>\n</ul>\n",
+            "tags": [
+                "Pocket Shell",
+                "Unity",
+                "Game Networking"
+            ]
+        },
+        {
             "id": "http://example.com/2023/09/17/Pocket-Shell-01-Overview/",
             "url": "http://example.com/2023/09/17/Pocket-Shell-01-Overview/",
             "title": "Pocket_Shell_01_Overview",
